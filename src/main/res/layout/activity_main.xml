@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/tvExpr"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:textColor="@color/md_white_1000"
+            android:textSize="40sp"
+            android:ellipsize="start"
+            android:gravity="end"
+            android:singleLine="true"/>
+
+    <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:textColor="@color/md_white_1000"
+            android:textSize="30sp"
+            android:ellipsize="end"
+            android:gravity="end"
+            android:maxLines="1"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+            <TextView
+                    android:id="@+id/tvBorrar"
+                    style="@style/ActionButtonStyle"
+                    android:text="@string/C"/>
+
+            <TextView
+                    android:id="@+id/tvparentesisI"
+                    style="@style/ActionButtonStyle"
+                    android:text="@string/parentI"/>
+
+            <TextView
+                    android:id="@+id/tvparentesisD"
+                    style="@style/ActionButtonStyle"
+                    android:text="@string/parentD"/>
+
+            <TextView
+                    android:id="@+id/tvdivision"
+                    style="@style/ActionButtonStyle"
+                    android:text="@string/division"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+            <TextView
+                    android:id="@+id/tvsiete"
+                    style="@style/NumberButtonStyle"
+                    android:text="@string/siete"/>
+
+            <TextView
+                    android:id="@+id/tvocho"
+                    style="@style/NumberButtonStyle"
+                    android:text="@string/ocho"/>
+
+            <TextView
+                    android:id="@+id/tvnueve"
+                    style="@style/NumberButtonStyle"
+                    android:text="@string/nueve"/>
+
+            <TextView
+                    android:id="@+id/tvmultiplicacion"
+                    style="@style/ActionButtonStyle"
+                    android:text="@string/mult"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+            <TextView
+                    android:id="@+id/tvcuatro"
+                    style="@style/NumberButtonStyle"
+                    android:text="@string/cuatro"/>
+
+            <TextView
+                    android:id="@+id/tvcinco"
+                    style="@style/NumberButtonStyle"
+                    android:text="@string/cinco"/>
+
+            <TextView
+                    android:id="@+id/tvseis"
+                    style="@style/NumberButtonStyle"
+                    android:text="@string/seis"/>
+
+            <TextView
+                    android:id="@+id/tvmenos"
+                    style="@style/ActionButtonStyle"
+                    android:text="@string/menos"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+            <TextView
+                    android:id="@+id/tvuno"
+                    style="@style/NumberButtonStyle"
+                    android:text="@string/uno"/>
+
+            <TextView
+                    android:id="@+id/tvdos"
+                    style="@style/NumberButtonStyle"
+                    android:text="@string/dos"/>
+
+            <TextView
+                    android:id="@+id/tvtres"
+                    style="@style/NumberButtonStyle"
+                    android:text="@string/tres"/>
+
+            <TextView
+                    android:id="@+id/tvmas"
+                    style="@style/ActionButtonStyle"
+                    android:text="@string/mas"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+            <TextView
+                    android:id="@+id/tvpunto"
+                    style="@style/NumberButtonStyle"
+                    android:text="@string/punto"/>
+
+            <TextView
+                    android:id="@+id/tvcero"
+                    style="@style/NumberButtonStyle"
+                    android:text="@string/cero"/>
+
+            <ImageView
+                    android:id="@+id/tvback"
+                    style="@style/NumberButtonStyle"
+                    android:src="@drawable/backspace"
+                    android:scaleType="center"/>
+
+            <TextView
+                    android:id="@+id/tvigual"
+                    style="@style/ActionButtonStyle"
+                    android:text="@string/igual"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
